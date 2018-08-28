@@ -3,13 +3,13 @@
 
 int main()
 {
-	char str[100];
+	char str[20];
 	int i;
-	for (i = 0; i < 100; i++) {
+	for (i = 0; i < 20; i++) {
 		str[i] = 'a';
 	}
 	printf("before: %s\n", str);
 	violet(str);
-	printf("after: %s\n", str);
+	printf("after:  %s\n", str);
 	return 0;
 }
